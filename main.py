@@ -143,18 +143,18 @@ class Content(QWidget):
     def initUI(self):
         # 설명
         guide = QLabel('LearnUs Downloader는 LearnUs 내 강의 동영상을 다운로드할 수 있도록 도와줍니다.\n'
-                       '하단에 강의 소스와 저장할 파일의 이름, 위치를 입력한 후 다운로드를 클릭합니다.', self)
+                       '하단에 저장할 파일의 이름, 위치 그리고 강의 소스를 입력한 후 다운로드를 클릭합니다.', self)
 
         # 경고
         warning = QLabel('본 프로그램의 목적은 강의 오프라인 재생 및 수업 복습 용 영상 확인입니다.\n'
-                         '강의 영상 공유, 영리 행위를 포함한 모든 불법 행위는 엄격히 금지합니다.', self)
+                         '강의 영상 공유, 영리 행위를 포함한 모든 불법 행위는 엄격히 금지됩니다.', self)
         warning.setObjectName('warning')
         warning.setContentsMargins(0, 0, 0, 20)
 
         # 입력
         nameGuide = QLabel('저장 이름 : ', self)
         self.parent.nameState = QLineEdit(self)
-        self.parent.nameState.setPlaceholderText('런어스 강의영상_n주차')
+        self.parent.nameState.setPlaceholderText('런어스 강의영상 n주차')
         self.parent.nameState.setAttribute(Qt.WA_MacShowFocusRect, False)
         nameLayout = QHBoxLayout()
         nameLayout.addWidget(nameGuide)
@@ -184,7 +184,7 @@ class Content(QWidget):
         locationLayout.addStretch(1)
 
         # 상태
-        self.parent.state = QLabel('다운로드 대기 중입니다. (v 1.0.0)', self)
+        self.parent.state = QLabel('다운로드 대기 중입니다. (v 1.0.1)', self)
 
         # 버튼
         self.parent.download = QPushButton('다운로드', self)
