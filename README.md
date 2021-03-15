@@ -3,10 +3,8 @@
 ## 소개
 LearnUs Downloader는 LearnUs 내 강의 동영상을 다운로드할 수 있도록 도와주는 프로그램입니다.
 
-<p>
-    <img src="/guide/main_screenshot_mac.png" width="50%" alt="메인 화면 (맥)">
-    <img src="/guide/main_screenshot_windows.png" width="40%" alt="메인 화면 (윈도우)">
-</p>
+<img src="/guide/main_screenshot_mac.png" width="100%" alt="메인 화면 (맥)">
+<img src="/guide/main_screenshot_windows.png" width="80%" alt="메인 화면 (윈도우)">
 
 ## 주의사항
 - 본 프로그램의 목적은 강의 오프라인 재생 및 수업 복습 용 영상 확인입니다.
